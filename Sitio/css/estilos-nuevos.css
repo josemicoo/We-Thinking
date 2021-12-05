@@ -1,0 +1,98 @@
+* {margin: 0; padding: 0;}
+
+/*********************************************
+*********TIPOS DE TEXTOS Y TIPOGRAFIAS********
+**********************************************
+**********************************************/
+h1 {
+    font-family: 'Prompt', sans-serif;
+    line-height: 1.5em!important;
+    font-size: 3.5em!important;
+}
+
+h3 {
+    font-family: prosaic-std,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: prosaic-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3em!important;
+}
+
+a {
+    font-family: prosaic-std,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    text-decoration-line: none !important;
+    display: inline-block;
+}
+
+
+
+.cajas {
+    width: 90%;
+    height: 100%;
+    background-color:  #002356 ;
+    box-shadow: 0px 11px 17px rgba(0, 0, 0, 0.55);
+    border-radius: 30px;
+}
+
+.icono-cajas {
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 15%;
+
+}
+
+.titulo-cajas {
+    text-align: center;
+    color: white;
+    padding-top: 15%;
+
+}
+
+.texto-cajas {
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    font-size: 1em !important;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.iconoUX {
+    margin-top: 28% ;
+}
+
+.titulo-UX {
+    margin-top: 12.5%;
+}
+
+.titulo-Web {
+    margin-top: 2%;
+}
+
+.texto-UX{
+    margin-bottom: 12%;
+}
+
+.texto-motion {
+    margin-bottom: 12.5%;
+}
+
+.texto-diseñoWeb {
+    margin-bottom: 25%;
+}
+
+.cajaContenido {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin-top: 45%;
+}

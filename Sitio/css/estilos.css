@@ -309,6 +309,29 @@ footer {
     margin-bottom: 1%;
 }
 
+.imagenesPortfolio {
+    border-radius: 40px;
+}
+
+.piePortfolio {
+    color:gray !important;
+    font-size: 12px !important;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    line-height: 24px;
+}
+
+.estilos-boton-portfolio {
+    margin-top: 0;
+}
+
+.titulosPortfolio {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    margin-top: 1%;
+}
+
 @media screen and (max-width: 375px) {
 
     .contenido-contenedor {

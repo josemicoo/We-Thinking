@@ -361,6 +361,19 @@ footer {
     font-family: 'Quicksand', sans-serif;
 }
 
+.iconos-contacto {
+    width: 100%;
+    margin-right: 3%;
+    display: inline-block;
+}
+
+.cajas-iconos-contacto {
+    display: inline-block;
+}
+
+
+
+
 
 @media screen and (max-width: 375px) {
 

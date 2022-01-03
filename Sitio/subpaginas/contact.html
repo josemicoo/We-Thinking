@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | We Thinking</title>
+    <title>Contact | We Thinking</title>
     <link rel="shortcut icon" href="../images/logo-redondeado.ico">
     <!--Fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/ueu7ebf.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
     <!--CSS-->
     <link rel="stylesheet" href="../css/estilos.css">
     <!---Bootstrap-->
@@ -41,15 +43,13 @@
                   <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Works</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="contact.html">Contact</a>
-                  </li>
+                
             </ul>
 
             <ul class="navbar-nav">
-                <li class="nav-item pr-5">
-                    <a class="nav-link mr-5" href="planes.html">Planes</a>
-                </li>
+              <li class="nav-item contacto-nav">
+                <a class="nav-link active nav-contacto-a" style="color: rgb(25, 0, 255);" href="contact.html">Contact</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -85,30 +85,26 @@
 
     
           
-          <form class="m-3" name="Formulario-contacto" netlify>
+          <form class="m-3" name="Formulario-contacto" action="https://formspree.io/f/xbjwlavj" method="POST">
             <div class="mb-3">
               
               <label for="exampleInputEmail1" class="form-label ">Nombre y Apellido</label>
               <input type="text" class="form-control mb-3 formulario-caja" placeholder="Nombre y Apellido" id="exampleInputEmail1" aria-describedby="emailHelp" required>
               <div id="emailHelp" class="form-text"></div>
 
-              <label for="exampleInputEmail1" class="form-label">Telefono o Movil</label>
-              <input type="text" class="form-control mb-3 formulario-caja" placeholder="Escribi tu numero aquí" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-              <div id="emailHelp" class="form-text"></div>
-
 
               <label for="exampleInputEmail1" class="form-label">Email</label>
-              <input type="email" placeholder="Escribí tu dirección de mail aquí" class="form-control formulario-caja" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+              <input type="email" placeholder="Escribí tu dirección de mail aquí" class="form-control formulario-caja" name="_replyto" id="exampleInputEmail1" aria-describedby="emailHelp" required>
               <div id="emailHelp" class="form-text mb-3 ">No vamos a compartir tu dirección de correo con nadie, es confidencial ;) </div>
 
               <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                <textarea class="form-control formulario-caja" placeholder="Escribí tu mensaje aquí" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                <textarea class="form-control formulario-caja" placeholder="Escribí tu mensaje aquí" id="exampleFormControlTextarea1" rows="3" name="message" required></textarea>
               </div>
             </div>
            
            
-            <button type="submit" style="height: auto;" class="estilos-boton col-xs-12 estilos-boton-portfolio "> <p class="texto-boton" style="font-size: 2.1em !important; display: flex; justify-content: center;"> ver proyecto</p></button>       
+            <button type="submit" style="height: auto;" class="estilos-boton col-xs-12 estilos-boton-portfolio "> <a class="texto-boton" style="font-size: 2.1em !important; display: flex; justify-content: center; color: white;"> Enviar</a></button>       
         
         </form>
         </div>
@@ -118,7 +114,33 @@
 
             <h2 class="textos-contacto-WT">We Thinking</h2>
 
-            <p>Ciudad Autonoma de Buenos Aires, Argentina</p>
+            <p>Ciudad Autónoma de Buenos Aires, Argentina.</p>
+
+           
+            <div class="col-lg-3 cajas-iconos-contacto">
+              <a href="https://www.instagram.com/wethinking.ar/" target="_blank">
+              <img src="/images/ig-icono.svg" class="iconos-contacto" alt="">
+            </a>
+            </div>
+       
+
+
+      
+            <div class="col-lg-3 cajas-iconos-contacto">
+            <a href="mailto:jmico@wethinking.com.ar" target="_blank">
+              <img src="/images/mail-icono.svg " class="iconos-contacto" alt="">
+            </a>
+            </div>
+      
+
+         
+            <div class="col-lg-3 cajas-iconos-contacto">
+              <a href="https://wa.me/+5491136810724?text=Hola%20We%20Thinking!%20Quer%C3%ADa%20hacer%20una%20consulta!" target="_blank">
+              <img src="/images/whatsapp-icono.svg" class="iconos-contacto" alt="">
+            </a>
+            </div>
+         
+
           </div>
   </div>
 

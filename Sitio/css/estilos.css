@@ -258,6 +258,10 @@ section {
     color: white;
 }
 
+label, input, textarea {
+    font-family: 'Prompt', sans-serif;
+}
+
 .texto-boton:hover {
     color: #002356;
     transition: 0.5s !important;
@@ -332,6 +336,32 @@ footer {
     margin-top: 1%;
 }
 
+.texto-Contacto {
+    color:gray !important;
+    line-height: 38px;
+    font-size: 18px !important;
+    text-align: center;
+}
+
+.cajaForm {
+    background-color: white;
+    border-radius: 50px;
+}
+
+.div-form {
+    margin-top: 2% 
+}
+
+.logo-form {
+    width: 75%;
+    
+}
+
+.textos-contacto-WT {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
 @media screen and (max-width: 375px) {
 
     .contenido-contenedor {
@@ -381,6 +411,11 @@ footer {
     .logo {
         width: 100%;
         margin-top: 7%;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: auto;
     }
 
 
@@ -435,6 +470,11 @@ footer {
     .logo {
         width: 100%;
         margin-top: 7%;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: auto;
     }
 
 
@@ -497,5 +537,11 @@ footer {
         margin-top: 1%;
         margin-left: 1%;
     }
+
+    iframe {
+        width: 70% !important;
+        height: auto;
+    }
+
 
 }

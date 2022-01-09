@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 
     <!--CSS-->
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css" >
     <!---Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -38,7 +38,7 @@
                     <a class="nav-link " aria-current="page" href="../index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./subpaginas/aboutUs.html">About Us</a>
+                    <a class="nav-link" href="aboutUs.html">About Us</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Works</a>
@@ -85,11 +85,11 @@
 
     
           
-          <form class="m-3" name="Formulario-contacto" action="https://formspree.io/f/xbjwlavj" method="POST">
+          <form class="m-3" name="Formulario-contacto" action="https://formspree.io/f/xbjwlavj" method="post">
             <div class="mb-3">
               
               <label for="exampleInputEmail1" class="form-label ">Nombre y Apellido</label>
-              <input type="text" class="form-control mb-3 formulario-caja" placeholder="Nombre y Apellido" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+              <input type="text" class="form-control mb-3 formulario-caja" placeholder="Nombre y Apellido" name="nombre" id="exampleInputEmail1" aria-describedby="emailHelp" required>
               <div id="emailHelp" class="form-text"></div>
 
 
@@ -99,7 +99,7 @@
 
               <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                <textarea class="form-control formulario-caja" placeholder="Escribí tu mensaje aquí" id="exampleFormControlTextarea1" rows="3" name="message" required></textarea>
+                <textarea class="form-control formulario-caja" placeholder="Escribí tu mensaje aquí" id="exampleFormControlTextarea1" rows="3" name="mensaje" required></textarea>
               </div>
             </div>
            
@@ -119,7 +119,7 @@
            
             <div class="col-lg-3 cajas-iconos-contacto">
               <a href="https://www.instagram.com/wethinking.ar/" target="_blank">
-              <img src="/images/ig-icono.svg" class="iconos-contacto" alt="">
+              <img src="../images/ig-icono.svg" class="iconos-contacto" alt="">
             </a>
             </div>
        
@@ -128,7 +128,7 @@
       
             <div class="col-lg-3 cajas-iconos-contacto">
             <a href="mailto:jmico@wethinking.com.ar" target="_blank">
-              <img src="/images/mail-icono.svg " class="iconos-contacto" alt="">
+              <img src="../images/mail-icono.svg " class="iconos-contacto" alt="">
             </a>
             </div>
       
@@ -136,7 +136,7 @@
          
             <div class="col-lg-3 cajas-iconos-contacto">
               <a href="https://wa.me/+5491136810724?text=Hola%20We%20Thinking!%20Quer%C3%ADa%20hacer%20una%20consulta!" target="_blank">
-              <img src="/images/whatsapp-icono.svg" class="iconos-contacto" alt="">
+              <img src="../images/whatsapp-icono.svg" class="iconos-contacto" alt="">
             </a>
             </div>
          
